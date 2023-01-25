@@ -13,7 +13,7 @@ class Solution {
         int r_c = height(t.right);
         
         dia = Math.max(dia,l_c+r_c);
-        System.out.println("hello"+dia);
+       
         return Math.max(l_c,r_c)+1;
             
     }
