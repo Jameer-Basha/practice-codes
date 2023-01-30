@@ -1,5 +1,5 @@
 class Solution {
-    public List<Integer> rightSideView(TreeNode root) {
+    public List<Integer> leftSideView(TreeNode root) {
         Queue<TreeNode> que=new LinkedList<>();
         List<Integer> lst= new ArrayList<Integer>();        
         if(root== null){
